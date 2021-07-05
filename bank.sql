@@ -39,9 +39,9 @@ CREATE TABLE `transaction` (
 --
 
 INSERT INTO `transaction` (`sender`, `receiver`, `amount`, `timestamp`) VALUES
-('Sharwin', 'Nila', 34, '2021-05-23'),
-('Sharwin', 'Surya', 34, '2021-05-23'),
-('Sharwin', 'Nila', 34, '2021-05-23');
+('Arun', 'Rohan', 34, '2021-05-23'),
+('Arun', 'Saran', 34, '2021-05-23'),
+('Arun', 'Rohan', 34, '2021-05-23');
 
 -- --------------------------------------------------------
 
@@ -62,16 +62,16 @@ CREATE TABLE `user_details` (
 --
 
 INSERT INTO `user_details` (`id`, `name`, `mob_no`, `email`, `current_balance`) VALUES
-(46, 'Sharwin', '9047244499', 'sharwin@gmail.com', '45790'),
-(67, 'Sneha', '9183948293', 'sneha@gmail.com', '63583'),
-(54, 'Sandy', '7358673984', 'dsandy@gmail.com', '24527'),
-(32, 'Annie', '9585513536', 'annie@gmail.com', '58732'),
-(42, 'Robert', '9038106999', 'robert@gmail.com', '92346'),
-(98, 'Nila', '9189237229', 'nila@gmail.com', '29116'),
-(87, 'Surya', '9047275342', 'surya@gmail.com', '44375'),
-(76, 'Vanitha', '9787955511', 'vani@gmail.com', '56723'),
-(65, 'Del', '9032347655', 'delo@gmail.com', '13456'),
-(64, 'Leo', '9238104499', 'leo@gmail.com', '91983');
+(15 'Arun', '9047244499', 'Arun@gmail.com', '45790'),
+(09, 'Vishwa', '9183948293', 'vishwa@gmail.com', '63583'),
+(34, 'King', '7358673984', 'dking@gmail.com', '24527'),
+(39, 'Varun', '9585513536', 'varun@gmail.com', '58732'),
+(25, 'Sathish', '9038106999', 'sathish@gmail.com', '92346'),
+(91, 'Rohan', '9189237229', 'rohan@gmail.com', '29116'),
+(03, 'Saran', '9047275342', 'saran@gmail.com', '44375'),
+(06, 'Vani', '9787955511', 'vani@gmail.com', '56723'),
+(61, 'Gokul', '9032347655', 'gokulo@gmail.com', '13456'),
+(20, 'Leo', '9238104499', 'leo@gmail.com', '91983');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

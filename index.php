@@ -209,7 +209,7 @@ button.btn-1{
       <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
         
       </button> -->
-      <div  class="navbar-brand justify"><h5 style="margin-top:0px; ">Internship project by Sharwin Xavier R @ The Sparks Foundation</h5></div>
+      <div  class="navbar-brand justify"><h5 style="margin-top:0px; ">Internship The Sparks Foundation</h5></div>
     </div> <!-- .navbar-header -->
    
   </div> <!-- .container -->
